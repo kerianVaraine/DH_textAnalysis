@@ -21,3 +21,5 @@ text.chapters <- text.original %>% mutate(linenumber = row_number(),
                                           
 #Lay each word out, with line number and chapter.
 text.tidyish <- unnest_tokens(text.chapters, word, value)
+
+text.tidyNoEndWords <- text.tidyish %>% 
