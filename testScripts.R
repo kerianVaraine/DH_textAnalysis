@@ -9,10 +9,8 @@ library(stringr)
 # library(textclean)
 
 #import original text from conversion, with line numbers, and chapter, skipping empty rows due to encoding
-text.original <- read_lines("src/Disappearance - Michael Joyce.txt", skip_empty_rows = TRUE)
+text.original <- read_lines("src/Disappearance - Michael Joyce.txt", skip_empty_rows = TRUE, )
 
   #View(text.original)
 
-####NEXT:
-# need to extract all chapter markings and apply them to the lines until the next chapter marking, and have these as a column
-
+#extract all chapter markings and apply them to the lines until the next chapter marking, and have these as a column
