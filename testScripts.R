@@ -6,6 +6,7 @@ library(tidytext)
 library(dplyr)
 library(stringr)
 library(stopwords)
+data("stop_words")
 # library(tm)
 # library(textclean)
 
@@ -22,4 +23,25 @@ text.chapters <- text.original %>% mutate(linenumber = row_number(),
 #Lay each word out, with line number and chapter.
 text.tidyish <- unnest_tokens(text.chapters, word, value)
 
-text.tidyNoEndWords <- text.tidyish %>% 
+#Remove end words from text. This does include I, I'm, I'll etc by default, need to alter the database for this perhaps?
+text.tidyNoEndWords <- text.tidyish %>% anti_join(stop_words)
+
+#recurrance of words, not including stopWords.
+frequency.withStopWords <- text.tidyNoEndWords %>% count(word, sort = TRUE) 
+
+frequency.noStopWords <- text.tidyish %>% count(word, sort = TRUE) 
+
+#sentiment analysis
+library(textdata)
+get_sentiments("afinn")
+get_sentiments("bing")
+get_sentiments("nrc")
+
+#sentiment in text, testing with joy from nrc dataset
+nrc_joy <- get_sentiments("nrc") %>% filter(sentiment == "joy");
+  
+  text.tidyNoEndWords %>%
+  inner_join(nrc_joy) %>%
+  count(word, sort = TRUE)
+
+#get sentiment per chapter???
