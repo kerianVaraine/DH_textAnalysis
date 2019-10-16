@@ -45,3 +45,15 @@ nrc_joy <- get_sentiments("nrc") %>% filter(sentiment == "joy");
   count(word, sort = TRUE)
 
 #get sentiment per chapter???
+#####################
+#chapter1 sentiment:: create a function for this for plotting.
+#####################
+
+sentiment.ch1.raw <- filter(text.tidyNoEndWords, chapter == 1) %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(word, sentiment)
+
+sentiment.ch1 <- sentiment.ch1.raw %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentiment = positive + negative)
+
