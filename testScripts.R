@@ -1,5 +1,5 @@
 # set your working directory
-setwd("F:/Projects/DH_Joyce/DH_textAnalysis")
+setwd(here::here())
 # make sure these libraries are imported into Rstudio via Tools=>Install packages
 library(tidyverse)
 library(tidytext)
@@ -20,7 +20,7 @@ text.original <- as_tibble(read_lines("data/Disappearance - Michael Joyce.txt", 
 text.chapters <- text.original %>%
   mutate(linenumber = row_number(), chapter = cumsum(str_detect(as.matrix(text.original), regex("[\\d]", ignore_case = TRUE))))
 
-
+# Tokenise text
 # Lay each word out, with line number and chapter.
 text.tidyish <- unnest_tokens(text.chapters, word, value)
 
@@ -41,7 +41,8 @@ frequency.noStopWords <- text.tidyNoEndWords %>% count(word, sort = TRUE)
 # recurrance of words, including stopWords
 frequency.IncludingstopWords <- text.tidyish %>% count(word, sort = TRUE)
 
-
+## Split text into chapters
+chapters <- split(text.tidyNoEndWords, text.tidyNoEndWords$chapter)
 
 
 
@@ -93,6 +94,9 @@ sentiment.ch1.negative <- sum(sentiment.ch1.bing$negative)
 ## Split text into chapters
 chapters <- split(text.tidyNoEndWords, text.tidyNoEndWords$chapter)
 
+
+
+
 ## apply funtion to chapters listing
 sentiment <- sapply(chapters, sentimentCount)
 
@@ -104,22 +108,3 @@ sentimentCount <- function(chap) {
     spread(sentiment, n, fill = 0) %>%
     mutate(sentiment = positive - negative)
 }
-
-
-
-## calc sentiment in general for each chapter. Wrap this in a function and create new dataset?
-for (i in sentiment) {
-  print(
-    (if ("positive" %in% names(i)) {
-      sum(i$positive)
-    } else {
-      0
-    }) -
-      (if ("negative" %in% names(i)) {
-        sum(i$negative)
-      } else {
-        0
-      })
-  )
-}
-
