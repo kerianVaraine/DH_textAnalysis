@@ -1,0 +1,49 @@
+ORDER OF OPERATIONS TO PRODUCE FINAL OUTCOMES
+
+
+
+These are essentially todos:
+
+[X] add chapters colomn in parsed text
+[ ] Import as plaintext character vectors, then parse through and tokenise
+[ ] Go through and identify protagonist speaking (with margin of error):
+        this involves checking for more instances of "I" followed by "said | whispered | etc"
+[ ] Go through and change all the various ways the character are addressed by name to one name each, as in the protagonist ID functions
+
+[ ] Get a better character list by filtering the personal pronoun column of the parsed text and seeing recurrance etc...
+
+[ ] create a full character dictionary vector
+
+
+
+Turn every ‘I said’ correlation into a special key word do denote that the speaker is main protagonist.
+
+Need to parse through text, and convert all character mentions to a single character:
+ie: “beck” and “beckmesser” needs to change to just Beckmesser…. Use same function as above???
+
+create 1st person speaking verb vector of all the ways 1st person conversations
+
+
+___________
+process, steps
+____________
+
+load libraries: 
+set relative directories
+
+parse text = spacy_parse()
+add chapter column
+
+
+
+__ Collating character vector data
+THIS IS DIFFICULT FOR THIS TEXT!!!!
+Many characters have different names depending on the protagonist’s persona
+
+from text_parsed,
+	filter all occurrences of POS == “PROPN
+	calc frequency of lemma
+	filter until only left with names:
+
+
+certain chapters do not work with the map approach I’ve done.

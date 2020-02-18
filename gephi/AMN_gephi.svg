@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="926.38995"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-538.389954 -403.000000 926.389954 690.000000" height="690.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="2.272973"
+              d="M -181.033875,-361.480835 C -158.396378,-357.760956 -130.020004,-318.224854 -133.739899,-295.587372"
+              class="id_0 id_16" stroke-opacity="1.0" stroke="#b98a42"/>
+        <path fill="none" stroke-width="3.6071095"
+              d="M -268.676025,265.023560 C -365.567841,262.832245 -507.618561,114.207520 -505.427246,17.315697"
+              class="id_3 id_4" stroke-opacity="1.0" stroke="#60beaa"/>
+        <path fill="none" stroke-width="1.8282609"
+              d="M -268.676025,265.023560 C -398.530548,211.732330 -513.375488,-62.986324 -460.084229,-192.840851"
+              class="id_3 id_7" stroke-opacity="1.0" stroke="#c0c0c0"/>
+        <path fill="none" stroke-width="1.8282609"
+              d="M -268.676025,265.023560 C -286.431061,186.151871 -194.756042,41.211788 -115.884338,23.456760"
+              class="id_3 id_9" stroke-opacity="1.0" stroke="#c9b9b8"/>
+        <path fill="none" stroke-width="3.6071095"
+              d="M -268.676025,265.023560 C -353.810974,125.914139 -272.849304,-210.452408 -133.739899,-295.587372"
+              class="id_3 id_16" stroke-opacity="1.0" stroke="#df8aa2"/>
+        <path fill="none" stroke-width="4.4965334"
+              d="M -505.427246,17.315697 C -538.389954,-33.784222 -511.184143,-159.878143 -460.084229,-192.840851"
+              class="id_4 id_7" stroke-opacity="1.0" stroke="#60beaa"/>
+        <path fill="none" stroke-width="2.272973"
+              d="M -505.427246,17.315697 C -384.385437,-11.093853 -160.208450,127.854515 -131.798889,248.896301"
+              class="id_4 id_8" stroke-opacity="1.0" stroke="#60beaa"/>
+        <path fill="none" stroke-width="4.0518217"
+              d="M -505.427246,17.315697 C -426.290466,-59.364677 -192.564713,-55.680038 -115.884338,23.456760"
+              class="id_4 id_9" stroke-opacity="1.0" stroke="#69b8a2"/>
+        <path fill="none" stroke-width="3.1623974"
+              d="M -505.427246,17.315697 C -381.357056,-74.823898 -57.042358,-26.928009 35.097233,97.142189"
+              class="id_4 id_10" stroke-opacity="1.0" stroke="#00c0c9"/>
+        <path fill="none" stroke-width="3.6071095"
+              d="M -505.427246,17.315697 C -356.784302,-49.874123 -33.035210,72.305542 34.154610,220.948456"
+              class="id_4 id_11" stroke-opacity="1.0" stroke="#7fa24c"/>
+        <path fill="none" stroke-width="1.8282609"
+              d="M -505.427246,17.315697 C -381.119171,-138.249329 38.690548,-185.134735 194.255569,-60.826645"
+              class="id_4 id_13" stroke-opacity="1.0" stroke="#60beaa"/>
+        <path fill="none" stroke-width="16.059048"
+              d="M -505.427246,17.315697 C -493.670410,-119.602386 -270.657990,-307.344238 -133.739899,-295.587372"
+              class="id_4 id_16" stroke-opacity="1.0" stroke="#7f898c"/>
+        <path fill="none" stroke-width="2.717685"
+              d="M -505.427246,17.315697 C -445.718048,-158.273331 -92.770714,-332.093079 82.818314,-272.383881"
+              class="id_4 id_17" stroke-opacity="1.0" stroke="#7fa24c"/>
+        <path fill="none" stroke-width="1.8282609"
+              d="M -425.357452,-298.167114 C -411.237549,-270.156525 -432.073639,-206.960739 -460.084229,-192.840851"
+              class="id_5 id_7" stroke-opacity="1.0" stroke="#60c2df"/>
+        <path fill="none" stroke-width="1.8282609"
+              d="M -425.357452,-298.167114 C -411.677307,-321.080902 -356.786407,-334.931305 -333.872620,-321.251160"
+              class="id_5 id_14" stroke-opacity="1.0" stroke="#60c2df"/>
+        <path fill="none" stroke-width="7.1648064"
+              d="M -460.084229,-192.840851 C -347.984741,-218.421310 -141.464798,-88.642746 -115.884338,23.456760"
+              class="id_7 id_9" stroke-opacity="1.0" stroke="#c9b9b8"/>
+        <path fill="none" stroke-width="3.1623974"
+              d="M -460.084229,-192.840851 C -302.813416,-297.305969 89.790451,-218.097458 194.255569,-60.826645"
+              class="id_7 id_13" stroke-opacity="1.0" stroke="#c0c0c0"/>
+        <path fill="none" stroke-width="3.6071095"
+              d="M -460.084229,-192.840851 C -460.523987,-243.765244 -384.796997,-320.811401 -333.872620,-321.251160"
+              class="id_7 id_14" stroke-opacity="1.0" stroke="#c0c0c0"/>
+        <path fill="none" stroke-width="4.4965334"
+              d="M -460.084229,-192.840851 C -415.364685,-278.659027 -219.558060,-340.306915 -133.739899,-295.587372"
+              class="id_7 id_16" stroke-opacity="1.0" stroke="#df8aa2"/>
+        <path fill="none" stroke-width="4.0518217"
+              d="M -460.084229,-192.840851 C -367.412323,-317.329956 -41.670807,-365.055786 82.818314,-272.383881"
+              class="id_7 id_17" stroke-opacity="1.0" stroke="#dfa462"/>
+        <path fill="none" stroke-width="1.8282609"
+              d="M -131.798889,248.896301 C -128.770493,185.166245 -28.632814,94.113785 35.097233,97.142189"
+              class="id_8 id_10" stroke-opacity="1.0" stroke="#60c2df"/>
+        <path fill="none" stroke-width="2.717685"
+              d="M -115.884338,23.456760 C -228.423584,-1.887173 -359.216553,-208.711914 -333.872620,-321.251160"
+              class="id_9 id_14" stroke-opacity="1.0" stroke="#c9b9b8"/>
+        <path fill="none" stroke-width="9.833079"
+              d="M -115.884338,23.456760 C -183.264282,-36.780952 -193.977615,-228.207443 -133.739899,-295.587372"
+              class="id_9 id_16" stroke-opacity="1.0" stroke="#e9849a"/>
+        <path fill="none" stroke-width="1.8282609"
+              d="M -115.884338,23.456760 C -135.311951,-75.451897 -16.090343,-252.956284 82.818314,-272.383881"
+              class="id_9 id_17" stroke-opacity="1.0" stroke="#e99d5a"/>
+        <path fill="none" stroke-width="1.8282609"
+              d="M 35.097233,97.142189 C 35.335129,33.716747 130.830139,-61.064545 194.255569,-60.826645"
+              class="id_10 id_13" stroke-opacity="1.0" stroke="#60c2df"/>
+        <path fill="none" stroke-width="12.056639"
+              d="M 35.097233,97.142189 C -77.216110,52.363705 -178.518387,-183.274033 -133.739899,-295.587372"
+              class="id_10 id_16" stroke-opacity="1.0" stroke="#7f8cc1"/>
+        <path fill="none" stroke-width="7.1648064"
+              d="M 35.097233,97.142189 C -29.263763,13.692760 -0.631119,-208.022888 82.818314,-272.383881"
+              class="id_10 id_17" stroke-opacity="1.0" stroke="#7fa682"/>
+        <path fill="none" stroke-width="1.8282609"
+              d="M 34.154610,220.948456 C 9.819782,132.573242 105.880356,-36.491814 194.255569,-60.826645"
+              class="id_11 id_13" stroke-opacity="1.0" stroke="#dfa462"/>
+        <path fill="none" stroke-width="5.83067"
+              d="M 194.255569,-60.826645 C 81.704315,-42.179695 -115.092949,-183.036133 -133.739899,-295.587372"
+              class="id_13 id_16" stroke-opacity="1.0" stroke="#df8aa2"/>
+        <path fill="none" stroke-width="3.1623974"
+              d="M 194.255569,-60.826645 C 129.656662,-80.850639 62.794319,-207.784973 82.818314,-272.383881"
+              class="id_13 id_17" stroke-opacity="1.0" stroke="#dfa462"/>
+        <path fill="none" stroke-width="2.272973"
+              d="M -333.872620,-321.251160 C -288.713318,-356.144958 -168.633698,-340.746674 -133.739899,-295.587372"
+              class="id_14 id_16" stroke-opacity="1.0" stroke="#df8aa2"/>
+        <path fill="none" stroke-width="3.1623974"
+              d="M -333.872620,-321.251160 C -343.488983,-333.433441 -339.640137,-366.131470 -327.457855,-375.747833"
+              class="id_14 id_23" stroke-opacity="1.0" stroke="#c0c0c0"/>
+        <path fill="none" stroke-width="18.282608"
+              d="M -133.739899,-295.587372 C -85.787552,-334.258331 44.147369,-320.336212 82.818314,-272.383881"
+              class="id_16 id_17" stroke-opacity="1.0" stroke="#ff6e44"/>
+        <path fill="none" stroke-width="2.717685"
+              d="M -133.739899,-295.587372 C -149.285309,-317.809967 -139.269547,-374.461945 -117.046951,-390.007355"
+              class="id_16 id_18" stroke-opacity="1.0" stroke="#a54d61"/>
+        <path fill="none" stroke-width="2.717685"
+              d="M -133.739899,-295.587372 C -131.408218,-323.523987 -86.005768,-361.931427 -58.069138,-359.599731"
+              class="id_16 id_19" stroke-opacity="1.0" stroke="#7f2a42"/>
+    </g>
+    <g id="nodes">
+        <circle fill="#73c000" fill-opacity="0.5" r="13.238979" class="id_0"
+                cx="-181.03387" cy="-361.48083"/>
+        <circle fill="#000000" fill-opacity="0.5" r="10.0" class="id_1"
+                cx="289.41187" cy="202.31992"/>
+        <circle fill="#c0c0c0" fill-opacity="0.5" r="10.0" class="id_2"
+                cx="370.44202" cy="102.01927"/>
+        <circle fill="#c0c0c0" fill-opacity="0.5" r="21.757673" class="id_3"
+                cx="-268.67603" cy="265.02356"/>
+        <circle fill="#00bd94" fill-opacity="0.5" r="29.232159" class="id_4"
+                cx="-505.42725" cy="17.315697"/>
+        <circle fill="#00c4ff" fill-opacity="0.5" r="14.476991" class="id_5"
+                cx="-425.35745" cy="-298.1671"/>
+        <circle fill="#df89ff" fill-opacity="0.5" r="10.0" class="id_6"
+                cx="315.54077" cy="124.534836"/>
+        <circle fill="#c0c0c0" fill-opacity="0.5" r="28.024132" class="id_7"
+                cx="-460.08423" cy="-192.84085"/>
+        <circle fill="#c0c0c0" fill-opacity="0.5" r="15.086437" class="id_8"
+                cx="-131.79889" cy="248.8963"/>
+        <circle fill="#d3b3b0" fill-opacity="0.5" r="25.34493" class="id_9"
+                cx="-115.88434" cy="23.45676"/>
+        <circle fill="#00c4ff" fill-opacity="0.5" r="22.175598" class="id_10"
+                cx="35.097233" cy="97.14219"/>
+        <circle fill="#ff8805" fill-opacity="0.5" r="15.502669" class="id_11"
+                cx="34.15461" cy="220.94846"/>
+        <circle fill="#df89ff" fill-opacity="0.5" r="10.0" class="id_12"
+                cx="287.08716" cy="166.00903"/>
+        <circle fill="#c0c0c0" fill-opacity="0.5" r="24.74576" class="id_13"
+                cx="194.25557" cy="-60.826645"/>
+        <circle fill="#c0c0c0" fill-opacity="0.5" r="19.620419" class="id_14"
+                cx="-333.87262" cy="-321.25116"/>
+        <circle fill="#c0c0c0" fill-opacity="0.5" r="10.0" class="id_15"
+                cx="268.70776" cy="129.48033"/>
+        <circle fill="#ff5584" fill-opacity="0.5" r="30.0" class="id_16"
+                cx="-133.7399" cy="-295.58737"/>
+        <circle fill="#ff8805" fill-opacity="0.5" r="26.117542" class="id_17"
+                cx="82.81831" cy="-272.38388"/>
+        <circle fill="#4c463e" fill-opacity="0.5" r="13.238979" class="id_18"
+                cx="-117.04695" cy="-390.00735"/>
+        <circle fill="#000000" fill-opacity="0.5" r="10.0" class="id_19"
+                cx="-58.069138" cy="-359.59973"/>
+        <circle fill="#df89ff" fill-opacity="0.5" r="10.0" class="id_20"
+                cx="321.60016" cy="71.366264"/>
+        <circle fill="#4c463e" fill-opacity="0.5" r="10.0" class="id_21"
+                cx="377.83762" cy="140.76695"/>
+        <circle fill="#c0c0c0" fill-opacity="0.5" r="10.0" class="id_22"
+                cx="281.87503" cy="97.48057"/>
+        <circle fill="#c0c0c0" fill-opacity="0.5" r="11.558006" class="id_23"
+                cx="-327.45786" cy="-375.74783"/>
+        <circle fill="#73c000" fill-opacity="0.5" r="10.0" class="id_24"
+                cx="378.01312" cy="172.09041"/>
+        <circle fill="#000000" fill-opacity="0.5" r="10.0" class="id_25"
+                cx="337.77325" cy="200.83714"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="26" x="-181.03387" y="-356.46042" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_0">
+            Manco
+        </text>
+        <text font-size="20" x="289.41187" y="206.4094" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_1">
+            K’ak’a
+        </text>
+        <text font-size="20" x="370.44202" y="106.86621" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_2">
+            Vaya
+        </text>
+        <text font-size="44" x="-268.67603" y="276.02356" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_3">
+            Franky
+        </text>
+        <text font-size="58" x="-505.42725" y="28.958946" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_4">
+            Beckmesser
+        </text>
+        <text font-size="29" x="-425.35745" y="-292.28857" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_5">
+            Candido
+        </text>
+        <text font-size="20" x="315.54077" y="128.54974" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_6">
+            Pacha
+        </text>
+        <text font-size="56" x="-460.08423" y="-182.02766" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_7">
+            Irene
+        </text>
+        <text font-size="30" x="-131.79889" y="254.92456" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_8">
+            Carmine
+        </text>
+        <text font-size="51" x="-115.88434" y="33.304485" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_9">
+            Rosaria
+        </text>
+        <text font-size="44" x="35.097233" y="106.06134" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_10">
+            Camille
+        </text>
+        <text font-size="31" x="34.15461" y="227.17157" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_11">
+            Elinor
+        </text>
+        <text font-size="20" x="287.08716" y="169.87088" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_12">
+            Dee
+        </text>
+        <text font-size="49" x="194.25557" y="-50.89395" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_13">
+            Camilla
+        </text>
+        <text font-size="39" x="-333.87262" y="-311.50116" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_14">
+            Andy
+        </text>
+        <text font-size="20" x="268.70776" y="133.3422" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_15">
+            Maria
+        </text>
+        <text font-size="60" x="-133.7399" y="-283.4249" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_16">
+            Cedric
+        </text>
+        <text font-size="52" x="82.81831" y="-262.34308" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_17">
+            Marco
+        </text>
+        <text font-size="26" x="-117.04695" y="-384.78796" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_18">
+            Alex
+        </text>
+        <text font-size="20" x="-58.069138" y="-355.5848" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_19">
+            Eleanor
+        </text>
+        <text font-size="20" x="321.60016" y="75.420425" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_20">
+            Gurula
+        </text>
+        <text font-size="20" x="377.83762" y="144.7073" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_21">
+            Mil
+        </text>
+        <text font-size="20" x="281.87503" y="101.49548" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_22">
+            Gitana
+        </text>
+        <text font-size="23" x="-327.45786" y="-371.39246" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_23">
+            Nim
+        </text>
+        <text font-size="20" x="378.01312" y="176.10532" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_24">
+            Wenceslao
+        </text>
+        <text font-size="20" x="337.77325" y="205.91563" fill="#3d5475"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Sathu" class="id_25">
+            Miguel
+        </text>
+    </g>
+</svg>
