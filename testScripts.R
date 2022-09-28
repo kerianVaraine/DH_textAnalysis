@@ -12,13 +12,16 @@ library(SnowballC)
 #stop_words <- as_tibble(stopwords("en"))
 
 # import original text from conversion, with line numbers, and chapter, skipping empty rows due to encoding
-text.original <- as_tibble(read_lines("data/Disappearance - Michael Joyce.txt", skip_empty_rows = TRUE, ))
+text.original <- as_tibble(read_lines("data/Disappearance - Michael Joyce.txt", skip_empty_rows = TRUE ))
 
 # View(text.original)
 
+# @TODO
+#######THIS IS USED FOR GETTING CHAPTERS INTO SPACYR THING MUST REDO THIS AS A FUNCTION
 # extract all chapter markings and apply them to the lines until the next chapter marking, and have these as a column
 text.chapters <- text.original %>%
-  mutate(linenumber = row_number(), chapter = cumsum(str_detect(as.matrix(text.original), regex("[\\d]", ignore_case = TRUE))))
+  mutate(linenumber = paste(sep = '', "text", row_number()), chapter = cumsum(str_detect(as.matrix(text.original), regex("[\\d]", ignore_case = TRUE))))
+
 
 # Tokenise text
 # Lay each word out, with line number and chapter.
@@ -56,6 +59,7 @@ pal <- brewer.pal(8, "Dark2")
 
 frequency.noStopWords %>% with(wordcloud(word, n, random.order = FALSE, max.words = 50, colors = pal))
 
+char_wc <- character_frequency %>% with(wordcloud(text, n,max.words = 100, random.order = FALSE, colors = pal))
 
 
 
